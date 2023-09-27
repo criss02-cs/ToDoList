@@ -36,6 +36,7 @@
 		796C5EC22AC2C5E900E8A2BC /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796C5EC12AC2C5E900E8A2BC /* HeaderView.swift */; };
 		796C5EC42AC2CE4D00E8A2BC /* TLButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796C5EC32AC2CE4D00E8A2BC /* TLButton.swift */; };
 		796C5EC62AC2DB8600E8A2BC /* Encodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 796C5EC52AC2DB8600E8A2BC /* Encodable.swift */; };
+		79E1C4642AC429140083F474 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 79E1C4632AC429140083F474 /* Launch Screen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,7 @@
 		796C5EC12AC2C5E900E8A2BC /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
 		796C5EC32AC2CE4D00E8A2BC /* TLButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TLButton.swift; sourceTree = "<group>"; };
 		796C5EC52AC2DB8600E8A2BC /* Encodable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Encodable.swift; sourceTree = "<group>"; };
+		79E1C4632AC429140083F474 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -218,6 +220,7 @@
 				796C5E702AC2BD6300E8A2BC /* Assets.xcassets */,
 				796C5E6C2AC2BD6200E8A2BC /* ToDoListApp.swift */,
 				796C5EC52AC2DB8600E8A2BC /* Encodable.swift */,
+				79E1C4632AC429140083F474 /* Launch Screen.storyboard */,
 			);
 			path = Other;
 			sourceTree = "<group>";
@@ -336,6 +339,7 @@
 			files = (
 				796C5E742AC2BD6300E8A2BC /* Preview Assets.xcassets in Resources */,
 				796C5E712AC2BD6300E8A2BC /* Assets.xcassets in Resources */,
+				79E1C4642AC429140083F474 /* Launch Screen.storyboard in Resources */,
 				796C5E9E2AC2BFB800E8A2BC /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -552,6 +556,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -583,6 +588,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (

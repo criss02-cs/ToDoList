@@ -4,15 +4,24 @@
 //
 //  Created by GBdev on 26/09/23.
 //
-
-import SwiftUI
-
-struct ToDoListItemViewViewModel: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+import FirebaseAuth
+import FirebaseFirestore
+import Foundation
+class ToDoListItemViewViewModel : ObservableObject {
+    init() {}
+    
+    func toggleIsDone(item: ToDoListItem) {
+        var itemCopy = item
+        itemCopy.setDone(!item.isDone)
+        
+        guard let uid = Auth.auth().currentUser?.uid else {
+            return
+        }
+        let db = Firestore.firestore()
+        db.collection("users")
+            .document(uid)
+            .collection("todos")
+            .document(itemCopy.id)
+            .setData(itemCopy.asDictionary())
     }
-}
-
-#Preview {
-    ToDoListItemViewViewModel()
 }
